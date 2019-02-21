@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='accelasc',
-    version='1.0.1',
+    version='1.0.2',
     author='Anthony Aylward',
     author_email='aaylward@eng.ucsd.edu',
     description='implementation of accel_asc algorithm for integer partitions',
