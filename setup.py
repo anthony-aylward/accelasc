@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='accelasc',
-    version='0.0.2',
+    version='1.0.0',
     author='Anthony Aylward',
     author_email='aaylward@eng.ucsd.edu',
     description='implementation of accel_asc algorithm for integer partitions',
@@ -17,6 +17,5 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent"
-    ],
-    install_requires=['numba']
+    ]
 )
