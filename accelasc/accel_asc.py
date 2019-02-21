@@ -5,6 +5,11 @@ def accel_asc(n: int):
     ----------
     n : int
         a positive integer
+
+    Yields
+    ------
+    list
+        a partition of `n`
     """
 
     a = [0 for i in range(n + 1)]
